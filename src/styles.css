@@ -357,7 +357,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--heritage-gold);
 .floating-actions { position: fixed; z-index: 10; right: 20px; bottom: 24px; display: flex; flex-direction: column; gap: 10px; }
 .whatsapp-float, .scroll-top-float { display: grid; width: 52px; height: 52px; place-items: center; border-radius: 50%; color: white; box-shadow: 0 3px 14px #0002; }
 .whatsapp-float { background: #5c9a42; }
-.whatsapp-float svg { width: 30px; height: 30px; }
+.whatsapp-float svg { width: 27px; height: 27px; }
 .whatsapp-float:hover { background: #447a30; }
 .scroll-top-float { background: var(--heritage-maroon); transition: background-color 180ms ease, transform 180ms ease; }
 .scroll-top-float svg { width: 22px; height: 22px; }
