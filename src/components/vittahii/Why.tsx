@@ -14,7 +14,7 @@ export function Why() {
       <div className="why-heading"><div><SectionLabel>Why Vittahii</SectionLabel><h2>The right ingredient.<br />The right process.<br />The right care.</h2></div><p className="why-quote">Purity is not an accident. It is the result of thoughtful decisions at every stage.</p></div>
       <div className="pillar-list">
         {pillars.map(({ number, title, text, icon: Icon }) => (
-          <article className="pillar" key={number}><span className="pillar-number">{number}</span><Icon aria-hidden="true" className="pillar-icon" /><h3>{title}</h3><p>{text}</p></article>
+          <article className="pillar" key={number}><div className="pillar-top"><span className="pillar-number">{number}</span><Icon aria-hidden="true" className="pillar-icon" /></div><h3>{title}</h3><p>{text}</p></article>
         ))}
       </div>
     </section>
