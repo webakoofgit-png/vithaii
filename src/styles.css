@@ -231,8 +231,6 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--heritage-gold);
 .hero-deck { margin: 20px 0 0; color: var(--heritage-yellow); font-size: clamp(16px, 1.4vw, 23px); }
 .hero-description { max-width: 735px; margin: 20px 0 0; font-size: clamp(14px, 1.18vw, 20px); line-height: 1.65; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 30px; }
-.hero-scroll { position: absolute; bottom: 5.3%; left: var(--page-gutter); display: flex; align-items: center; gap: 14px; color: white; font-size: clamp(9px, .68vw, 12px); text-transform: uppercase; text-decoration: none; }
-.hero-scroll > span { width: 48px; height: 1px; background: var(--heritage-gold); }
 .hero-date { position: absolute; right: var(--page-gutter); bottom: 5%; display: grid; justify-items: end; }
 .hero-date strong { font-family: var(--font-display); font-size: clamp(40px, 4.5vw, 72px); font-weight: 400; line-height: 1; }
 .hero-date span { margin-top: 10px; font-size: clamp(8px, .66vw, 12px); text-transform: uppercase; }
@@ -442,8 +440,6 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--heritage-gold);
   .hero-description { margin-top: 16px; font-size: 14px; }
   .hero-actions { gap: 10px; margin-top: 24px; }
   .arrow-link { min-height: 46px; padding: 12px 18px; font-size: 10px; gap: 10px; }
-  .hero-scroll { bottom: 28px; font-size: 8px; gap: 8px; }
-  .hero-scroll > span { width: 22px; }
   .hero-date { right: 24px; bottom: 24px; }
   .hero-date strong { font-size: 38px; }
   .hero-date span { max-width: 135px; font-size: 7px; text-align: right; }

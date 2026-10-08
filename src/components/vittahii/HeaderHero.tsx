@@ -49,7 +49,6 @@ export function HeaderHero() {
           <ArrowLink href="#legacy" tone="light">Our legacy</ArrowLink>
         </div>
       </div>
-      <a className="hero-scroll" href="#legacy"><span aria-hidden="true" />Scroll to discover</a>
       <div className="hero-date"><strong>1962</strong><span>The beginning of our dairy journey</span></div>
     </section>
   );
